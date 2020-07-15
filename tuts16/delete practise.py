@@ -1,0 +1,11 @@
+s = open("shaheen.txt","rt")
+#print(s.readlines())
+#print(s.readline())
+#print(s.readline())
+#print(s.readline())
+#print(s.readline())
+for line in s:
+      print(line,end="")
+#content = s.read()
+#print(content)
+s.close()
